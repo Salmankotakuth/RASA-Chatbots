@@ -5,8 +5,8 @@ It is an easy way to create chatbots using RASA Frameworks. Here are the steps t
 
 1. Install python
 2. Create a new directory for developing a Virtual environment
-  	>>>	mkdir rasa_directory
-  	>>>	cd rasa_directory
+  	-	mkdir rasa_directory.
+  	-	cd rasa_directory.
 3. Create a Virtual Environment
   	>>>	apt install python3.10-venv
   	>>>	python3 -m venv ./venv
