@@ -1,0 +1,51 @@
+<html>
+
+<body>
+  <style>
+    .rw-conversation-container .rw-header {
+      background-color: #0f74d2;
+    }
+
+    .rw-conversation-container .rw-messages-container .rw-message .rw-response {
+      background-color: #dedddb;
+      font-family: Verdana, Helvetica, sans-serif;
+    }
+
+    .rw-conversation-container .rw-messages-container .rw-message .rw-client {
+      background-color: #;
+    }
+
+    .rw-launcher {
+      background-color: #0f74d2;
+    }
+
+    body {
+      background-image: url('nutrracks.png');
+    }
+  </style>
+  <script>!(function () {
+      let e = document.createElement("script"),
+        t = document.head || document.getElementsByTagName("head")[0];
+      (e.src =
+        "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+        // Replace 1.x.x with the version that you want
+        (e.async = !0),
+        (e.onload = () => {
+          window.WebChat.default(
+            {
+              customData: { language: "en" },
+              socketUrl: "http://localhost:5005",
+              title: 'Nucore Bot',
+              subtitle: 'I am your Assistant'
+              // add other props here
+            },
+            null
+          );
+        }),
+        t.insertBefore(e, t.firstChild);
+    })();
+    localStorage.removeItem('chat_session');
+  </script>
+</body>
+
+</html>

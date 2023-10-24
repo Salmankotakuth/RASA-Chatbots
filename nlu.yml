@@ -1,0 +1,136 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - sure
+    - ok
+    - why not
+    - ok great
+    - yes I did
+    - yah, great
+    - pretty good
+    - fine
+    - I sure did
+    - more or less
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - non
+    - absolutely not
+    - no thanks
+    - didn't do any
+    - no I didn't
+    - could have been better
+    - not great
+    - nope
+
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: how_to_generate_cash_receipt
+  examples: |
+    - How can i generate a cash receipt
+    - How can i create a cash receipt
+    - How can i develop a cash receipt
+    - Where can i generate a cash receipt
+    - From Where can i generate a cash receipt
+    - Where is the link to generate a cash receipt
+    - Where is the module for generating a receipt
+    - Where the module to generate a cash receipt available
+    - Where the module to create a receipt available
+    - Where the link to generate a cash receipt available
+
+- intent: steps_to_generate_cash_receipt
+  examples: |
+    - What are the steps to create a cash receipt?
+    - What is the process for producing a cash receipt?
+    - What steps should I follow to create a cash receipt?
+    - What is the method for creating a cash receipt?
+    - What is the procedure for generating a cash receipt?
+    - What are the guidelines for generating a cash receipt?
+    - What is the approach to creating a cash receipt?
+    - What are the steps required to generate a cash receipt?
+    - What are the instructions for creating a cash receipt?
+    - What are the necessary steps to create a cash receipt?
